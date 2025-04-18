@@ -15,4 +15,5 @@ This is a backend REST API for an **Expense Tracker** application built with **N
 ---
 
 ## 📁 Project Structure
+│ ├── controllers/ # Business logic for routes │ ├── authController.js │ └── expenseController.js │ ├── models/ # Mongoose models │ ├── User.js │ └── Expense.js │ ├── middleware/ # JWT authentication middleware │ └── authMiddleware.js │ ├── routes/ # API route definitions │ ├── authRoutes.js │ └── expenseRoutes.js │ ├── .env # Environment variables ├── server.js # Entry point ├── package.json └── README.md
 
